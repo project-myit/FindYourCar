@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#474747"
+            android:drawableTint="#FFFFFF"
+            android:gravity="center"
+            android:text="Renaut"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/marks"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#454545"
+            android:backgroundTint="#787878"
+            android:gravity="center"
+            android:textColor="#FFFFFF" />
+
+        <ImageSwitcher
+            android:id="@+id/switcherW"
+            android:layout_width="match_parent"
+            android:layout_height="289dp" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#787878" />
+
+
+        <TextView
+            android:id="@+id/stoimost"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="#474747"
+            android:backgroundTint="#454545"
+            android:gravity="center"
+            android:text="Стоимость"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/diler_center"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#454545"
+            android:backgroundTint="#454545"
+            android:gravity="center"
+            android:text="Дилерский центр"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#474747"
+            android:backgroundTint="@color/purple_700" />
+
+
+    </LinearLayout>
+</FrameLayout>
